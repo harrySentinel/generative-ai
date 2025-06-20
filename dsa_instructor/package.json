@@ -1,0 +1,16 @@
+{
+  "name": "dsa_instructor",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "DSA.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/genai": "^1.5.1",
+    "dotenv": "^16.5.0"
+  }
+}
