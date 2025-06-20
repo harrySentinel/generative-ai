@@ -1,0 +1,178 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Fira+Code:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #1a1a2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.chatbot {
+    width: 450px;
+    background: #0f172a;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1), 
+                0 32px 64px -48px rgba(0, 0, 0, 0.5);
+    transform: scale(1);
+    transition: transform 0.2s ease;
+}
+
+header {
+    background: #5372F0;
+    padding: 16px 0;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+header h2 {
+    font-size: 1.4rem;
+}
+
+.chatbox {
+    height: 510px;
+    overflow-y: auto;
+    padding: 30px 20px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.chatbox .chat {
+    display: flex;
+    list-style: none;
+}
+
+.chatbox .chat p {
+    color: #fff;
+    max-width: 75%;
+    font-size: 0.95rem;
+    padding: 12px 16px;
+    border-radius: 10px 10px 0 10px;
+    background: #5372F0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.chatbox .incoming span {
+    height: 32px;
+    width: 32px;
+    color: #fff;
+    background: #5372F0;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 4px;
+    margin: 0 10px 7px 0;
+    align-self: flex-start;
+}
+
+.chatbox .outgoing {
+    justify-content: flex-end;
+}
+
+.chatbox .outgoing p {
+    background: #334155;
+    border-radius: 10px 10px 10px 0;
+}
+
+/* Code block styling */
+.chat p pre {
+    background-color: #1e293b;
+    color: #e2e8f0;
+    font-family: 'Fira Code', monospace;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-x: auto;
+}
+.chat p code {
+    font-family: 'Fira Code', monospace;
+    background-color: #1e293b;
+    padding: 2px 5px;
+    border-radius: 3px;
+    color: #94a3b8;
+}
+.chat p pre code { padding: 0; background: none; }
+
+/* Typing animation */
+.typing-animation {
+    display: inline-flex;
+    padding: 12px 20px;
+    gap: 5px;
+}
+.typing-animation .dot {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: #ccc;
+    animation: pulse 1.2s infinite ease-in-out;
+}
+.typing-animation .dot:nth-child(2) { animation-delay: 0.2s; }
+.typing-animation .dot:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); opacity: 0.5; }
+    50% { transform: scale(1.2); opacity: 1; }
+}
+
+.chat-input {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    background: #0f172a;
+    padding: 5px 20px;
+    border-top: 1px solid #334155;
+}
+
+.chat-input textarea {
+    height: 55px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 0.95rem;
+    resize: none;
+    padding: 16px 15px 16px 0;
+    background: transparent;
+    color: #fff;
+}
+
+.chat-input span {
+    font-size: 1.75rem;
+    color: #5372F0;
+    cursor: pointer;
+    align-self: flex-end;
+    height: 55px;
+    line-height: 55px;
+    visibility: hidden;
+}
+
+.chat-input textarea:valid ~ span {
+    visibility: visible;
+}
+
+/* Style for error messages from the bot - IMPORTANT FIX */
+.chat.error p {
+    background-color: #e53e3e; /* A red color for errors */
+    color: #fff;
+}
+
+@media (max-width: 490px) {
+    body { align-items: flex-start; background: #0f172a; }
+    .chatbot { width: 100%; height: 100vh; border-radius: 0; box-shadow: none; }
+    .chatbox { height: 90vh; }
+    header h2 { font-size: 1.2rem; }
+}
