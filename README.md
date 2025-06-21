@@ -1,37 +1,36 @@
 # 🧠 Generative AI Projects
 
 Welcome to my Generative AI repository!  
-This repo will include practical projects and learnings as I explore and build with modern GenAI tools.
+This is a growing collection of AI experiments and practical projects that I’m building to learn and explore the world of GenAI — one step at a time.
 
 ---
 
 ## 🚀 Current Project
 
-### 🤖 DSA Instructor Chatbot
+### 🤖 Rude DSA Instructor Chatbot
 
-A smart, beginner-friendly chatbot designed to explain **Data Structures & Algorithms** concepts using natural language.
+An AI chatbot that teaches **Data Structures & Algorithms** to beginners — but with a twist.  
+It’s straightforward, blunt, and even a little rude when you ask off-topic or silly questions.  
+Perfect for those who need **no-nonsense explanations** and a few roasts along the way 😄
 
-**What it does:**
-- Answers DSA questions in a simple, clear way
-- Acts like an instructor to guide beginners
-
-**Tech Stack:**
-- 🧠 Gemini API (Google Generative AI)
-- ⚛️ React (Frontend)
-- 🌐 Node.js (Backend)
-
-> This is my first step into integrating GenAI into real-world use cases.
+> It explains DSA concepts clearly — but don’t expect it to sugarcoat anything!
 
 ---
 
-## 🧪 What’s Coming Next
+## 📚 Coming Soon
 
-I'll be adding:
-- More GenAI mini-projects
-- My personal notes on GenAI concepts and prompt engineering
-- Experiments with AI agents and content tools
+This repo will also serve as a personal learning playground.  
+I'll soon be diving deeper into the world of GenAI with:
 
-Stay tuned!
+- 🔍 **RAG (Retrieval Augmented Generation)**
+- 🧠 **Vector Databases** (like **Pinecone**, **Weaviate**, etc.)
+- 📦 **Tokenization & Embeddings**
+- 🔗 **LangChain**
+- 🧭 **AI Agents** with tools and context
+- 🧪 **Prompt Engineering Experiments**
+- 📘 My personal notes and summaries for each topic
+
+Stay tuned for regular updates!
 
 ---
 
