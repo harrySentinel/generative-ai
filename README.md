@@ -1,49 +1,41 @@
-# 🧠 Generative AI Projects & Notes
+# 🧠 Generative AI Projects
 
-Welcome to my Generative AI repository! This repo is a growing collection of projects, notes, and practical implementations that explore the power and possibilities of GenAI. From LLMs to AI agents, and chatbots to prompt engineering — this space is all about **learning by building**.
-
----
-
-## 🚀 Projects Included
-
-### 1. 🤖 DSA Instructor Chatbot
-An intelligent chatbot trained to assist beginners with **Data Structures & Algorithms** concepts.  
-It can:
-- Explain DSA topics in simple language
-- Provide examples and beginner-friendly guidance
-- Answer common DSA questions  
-Tech Stack: `React`, `TypeScript`, `Gemini API`, `TTS`, `Node.js`, `Express`
-
-> 🎯 Goal: To make DSA learning accessible and conversational using GenAI.
+Welcome to my Generative AI repository!  
+This repo will include practical projects and learnings as I explore and build with modern GenAI tools.
 
 ---
 
-### 2. 📚 Notes & Learnings
-A growing collection of:
-- My personal notes on Generative AI
-- Key concepts and techniques
-- Prompt engineering experiments
-- Useful resources & blog links
+## 🚀 Current Project
+
+### 🤖 DSA Instructor Chatbot
+
+A smart, beginner-friendly chatbot designed to explain **Data Structures & Algorithms** concepts using natural language.
+
+**What it does:**
+- Answers DSA questions in a simple, clear way
+- Acts like an instructor to guide beginners
+
+**Tech Stack:**
+- 🧠 Gemini API (Google Generative AI)
+- ⚛️ React (Frontend)
+- 🌐 Node.js (Backend)
+
+> This is my first step into integrating GenAI into real-world use cases.
 
 ---
 
-### 3. 🧪 Upcoming Ideas
-- ✨ AI-powered blog/article generator  
-- 🧞‍♂️ Multi-step reasoning agent using Inngest + Gemini + Neon DB  
-- 🎙️ AI podcast generator with transcript-to-voice
+## 🧪 What’s Coming Next
+
+I'll be adding:
+- More GenAI mini-projects
+- My personal notes on GenAI concepts and prompt engineering
+- Experiments with AI agents and content tools
+
+Stay tuned!
 
 ---
 
-## 🛠️ Tech Stack
-
-- **Frontend:** React 18 + TypeScript + Tailwind CSS  
-- **Backend:** Node.js, Express  
-- **AI Models:** Gemini API (Google GenAI)  
-- **Tools:** Inngest, NeonDB, Langchain, TTS (Text-to-Speech), etc.
-
----
-
-## 📦 How to Use
+## 🛠️ Setup Instructions
 
 1. Clone the repo  
    ```bash
