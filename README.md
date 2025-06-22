@@ -13,6 +13,8 @@ An AI chatbot that teaches **Data Structures & Algorithms** to beginners — but
 It’s straightforward, blunt, and even a little rude when you ask off-topic or silly questions.  
 Perfect for those who need **no-nonsense explanations** and a few roasts along the way 😄
 
+![dsa instructor](https://github.com/user-attachments/assets/7e1ed3cc-53dc-4255-af0e-93fc2ebfdb6d)
+
 > It explains DSA concepts clearly — but don’t expect it to sugarcoat anything!
 
 ---
