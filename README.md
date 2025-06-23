@@ -28,7 +28,8 @@ I'll soon be diving deeper into the world of GenAI with:
 - 🧠 **Vector Databases** (like **Pinecone**, **Weaviate**, etc.)
 - 📦 **Tokenization & Embeddings**
 - 🔗 **LangChain**
-- 🧭 **AI Agents** with tools and context
+- 🧭 **AI Agents** with tools and context  
+  _Currently understanding the actual working of AI Agents — will soon upload detailed notes and insights._
 - 🧪 **Prompt Engineering Experiments**
 - 📘 My personal notes and summaries for each topic
 
