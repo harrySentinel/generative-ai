@@ -1,11 +1,11 @@
-# 🧠 Generative AI Projects
+# ➣ Generative AI Projects
 
 Welcome to my Generative AI repository!  
 This is a growing collection of AI experiments and practical projects that I’m building to learn and explore the world of GenAI — one step at a time.
 
 ---
 
-## 🚀 Projects
+## ➣ Projects
 
 ### 🤖 Rude DSA Instructor Chatbot
 
@@ -19,7 +19,7 @@ Perfect for those who need **no-nonsense explanations** and a few roasts along t
 
 ---
 
-## 📚 Coming Soon
+## ➣ Coming Soon
 
 This repo will also serve as a personal learning playground.  
 I'll soon be diving deeper into the world of GenAI with:
