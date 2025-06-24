@@ -5,7 +5,7 @@ This is a growing collection of AI experiments and practical projects that I’m
 
 ---
 
-## 🚀 Current Project
+## 🚀 Projects
 
 ### 🤖 Rude DSA Instructor Chatbot
 
